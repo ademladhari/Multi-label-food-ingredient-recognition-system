@@ -1,0 +1,210 @@
+TEST FOLDER INFERENCE RESULTS
+================================================================================
+Checkpoint: checkpoints/allclasses_head_best.pt
+Total images tested: 3
+================================================================================
+
+================================================================================
+IMAGE: image copy 2.png
+Path: data/test\image copy 2.png
+--------------------------------------------------------------------------------
+
+TOP 10 PREDICTIONS:
+   1. ham                                 prob=0.9959
+   2. bacon                               prob=0.9849
+   3. salad cream                         prob=0.9819
+   4. sausage                             prob=0.9572
+   5. oil                                 prob=0.9219
+   6. bread                               prob=0.9012
+   7. mayonnaise                          prob=0.8929
+   8. fruit juice and zest                prob=0.8820
+   9. egg                                 prob=0.8698
+  10. gram flour                          prob=0.8615
+
+PREDICTIONS BY THRESHOLD:               
+
+  Threshold 0.50 (21 predictions):
+    • ham                               prob=0.9959
+    • bacon                             prob=0.9849
+    • salad cream                       prob=0.9819
+    • sausage                           prob=0.9572
+    • oil                               prob=0.9219
+    • bread                             prob=0.9012
+    • mayonnaise                        prob=0.8929
+    • fruit juice and zest              prob=0.8820
+    • egg                               prob=0.8698
+    • gram flour                        prob=0.8615
+    • mung bean                         prob=0.8462
+    • vegetables                        prob=0.8355
+    • cucumbers                         prob=0.8182
+    • feta cheese                       prob=0.8018
+    • olives                            prob=0.7893
+    ... and 6 more
+
+  Threshold 0.80 (14 predictions):
+    • ham                               prob=0.9959
+    • bacon                             prob=0.9849
+    • salad cream                       prob=0.9819
+    • sausage                           prob=0.9572
+    • oil                               prob=0.9219
+    • bread                             prob=0.9012
+    • mayonnaise                        prob=0.8929
+    • fruit juice and zest              prob=0.8820
+    • egg                               prob=0.8698
+    • gram flour                        prob=0.8615
+    • mung bean                         prob=0.8462
+    • vegetables                        prob=0.8355
+    • cucumbers                         prob=0.8182
+    • feta cheese                       prob=0.8018
+
+  Threshold 0.90 (6 predictions):
+    • ham                               prob=0.9959
+    • bacon                             prob=0.9849
+    • salad cream                       prob=0.9819
+    • sausage                           prob=0.9572
+    • oil                               prob=0.9219
+    • bread                             prob=0.9012
+
+  Threshold 0.95 (4 predictions):
+    • ham                               prob=0.9959
+    • bacon                             prob=0.9849
+    • salad cream                       prob=0.9819
+    • sausage                           prob=0.9572
+
+================================================================================
+IMAGE: image copy.png
+Path: data/test\image copy.png
+--------------------------------------------------------------------------------
+
+TOP 10 PREDICTIONS:
+   1. cucumbers                           prob=1.0000
+   2. feta cheese                         prob=1.0000
+   3. olives                              prob=1.0000
+   4. oregano                             prob=0.9999
+   5. salt                                prob=0.9993
+   6. olive oil                           prob=0.9989
+   7. onion                               prob=0.9938
+   8. tomato                              prob=0.9868
+   9. ham                                 prob=0.9605
+  10. salad cream                         prob=0.9522
+
+PREDICTIONS BY THRESHOLD:               
+
+  Threshold 0.50 (12 predictions):
+    • cucumbers                         prob=1.0000
+    • feta cheese                       prob=1.0000
+    • olives                            prob=1.0000
+    • oregano                           prob=0.9999
+    • salt                              prob=0.9993
+    • olive oil                         prob=0.9989
+    • onion                             prob=0.9938
+    • tomato                            prob=0.9868
+    • ham                               prob=0.9605
+    • salad cream                       prob=0.9522
+    • mayonnaise                        prob=0.8209
+    • vegetables                        prob=0.5865
+
+  Threshold 0.80 (11 predictions):
+    • cucumbers                         prob=1.0000
+    • feta cheese                       prob=1.0000
+    • olives                            prob=1.0000
+    • oregano                           prob=0.9999
+    • salt                              prob=0.9993
+    • olive oil                         prob=0.9989
+    • onion                             prob=0.9938
+    • tomato                            prob=0.9868
+    • ham                               prob=0.9605
+    • salad cream                       prob=0.9522
+    • mayonnaise                        prob=0.8209
+
+  Threshold 0.90 (10 predictions):
+    • cucumbers                         prob=1.0000
+    • feta cheese                       prob=1.0000
+    • olives                            prob=1.0000
+    • oregano                           prob=0.9999
+    • salt                              prob=0.9993
+    • olive oil                         prob=0.9989
+    • onion                             prob=0.9938
+    • tomato                            prob=0.9868
+    • ham                               prob=0.9605
+    • salad cream                       prob=0.9522
+
+  Threshold 0.95 (10 predictions):
+    • cucumbers                         prob=1.0000
+    • feta cheese                       prob=1.0000
+    • olives                            prob=1.0000
+    • oregano                           prob=0.9999
+    • salt                              prob=0.9993
+    • olive oil                         prob=0.9989
+    • onion                             prob=0.9938
+    • tomato                            prob=0.9868
+    • ham                               prob=0.9605
+    • salad cream                       prob=0.9522
+
+================================================================================
+IMAGE: image.png
+Path: data/test\image.png
+--------------------------------------------------------------------------------
+
+TOP 10 PREDICTIONS:
+   1. cucumbers                           prob=0.9977
+   2. feta cheese                         prob=0.9972
+   3. olives                              prob=0.9971
+   4. oregano                             prob=0.9930
+   5. ham                                 prob=0.9902
+   6. salad cream                         prob=0.9759
+   7. olive oil                           prob=0.9554
+   8. salt                                prob=0.9340
+   9. mayonnaise                          prob=0.9132
+  10. tomato                              prob=0.8884
+
+PREDICTIONS BY THRESHOLD:               
+
+  Threshold 0.50 (14 predictions):
+    • cucumbers                         prob=0.9977
+    • feta cheese                       prob=0.9972
+    • olives                            prob=0.9971
+    • oregano                           prob=0.9930
+    • ham                               prob=0.9902
+    • salad cream                       prob=0.9759
+    • olive oil                         prob=0.9554
+    • salt                              prob=0.9340
+    • mayonnaise                        prob=0.9132
+    • tomato                            prob=0.8884
+    • onion                             prob=0.8657
+    • condiment                         prob=0.5390
+    • vegetables                        prob=0.5380
+    • back bacon                        prob=0.5232
+
+  Threshold 0.80 (11 predictions):
+    • cucumbers                         prob=0.9977
+    • feta cheese                       prob=0.9972
+    • olives                            prob=0.9971
+    • oregano                           prob=0.9930
+    • ham                               prob=0.9902
+    • salad cream                       prob=0.9759
+    • olive oil                         prob=0.9554
+    • salt                              prob=0.9340
+    • mayonnaise                        prob=0.9132
+    • tomato                            prob=0.8884
+    • onion                             prob=0.8657
+
+  Threshold 0.90 (9 predictions):
+    • cucumbers                         prob=0.9977
+    • feta cheese                       prob=0.9972
+    • olives                            prob=0.9971
+    • oregano                           prob=0.9930
+    • ham                               prob=0.9902
+    • salad cream                       prob=0.9759
+    • olive oil                         prob=0.9554
+    • salt                              prob=0.9340
+    • mayonnaise                        prob=0.9132
+
+  Threshold 0.95 (7 predictions):
+    • cucumbers                         prob=0.9977
+    • feta cheese                       prob=0.9972
+    • olives                            prob=0.9971
+    • oregano                           prob=0.9930
+    • ham                               prob=0.9902
+    • salad cream                       prob=0.9759
+    • olive oil                         prob=0.9554

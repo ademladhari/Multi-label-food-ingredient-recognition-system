@@ -1,0 +1,194 @@
+MODEL ACCURACY TEST RESULTS
+================================================================================
+Checkpoint: checkpoints/allclasses_head_best.pt
+Total classes tested: 8
+
+================================================================================
+CLASS: Greek_salad
+IMAGE: Greek_salad_0001.jpg
+--------------------------------------------------------------------------------
+GROUND TRUTH INGREDIENTS (8):
+  cucumbers, tomato, salt, feta cheese, olive oil, oregano, olives, onion
+
+TOP 5 PREDICTIONS (>0.95 threshold):
+  ✓ cucumbers                      prob=0.9978
+  ✓ olives                         prob=0.9973
+  ✓ feta cheese                    prob=0.9973
+  ✓ oregano                        prob=0.9946
+  ✗ anago                          prob=0.9734
+
+ACCURACY COMPARISON:
+  Threshold 0.50 (Lenient):
+    Correct: 8/8 true ingredients found
+    Total predicted: 23
+    Recall: 100.0%
+
+  Threshold 0.95 (Strict):
+    Correct: 6/8 true ingredients found
+    Total predicted: 7
+    Recall: 75.0%
+
+================================================================================
+CLASS: Fried_chicken
+IMAGE: Fried_chicken_0001.jpg
+--------------------------------------------------------------------------------
+GROUND TRUTH INGREDIENTS (2):
+  chicken, batter
+
+TOP 5 PREDICTIONS (>0.95 threshold):
+  ✓ batter                         prob=0.9997
+  ✓ chicken                        prob=0.9982
+
+ACCURACY COMPARISON:
+  Threshold 0.50 (Lenient):
+    Correct: 2/2 true ingredients found
+    Total predicted: 17
+    Recall: 100.0%
+
+  Threshold 0.95 (Strict):
+    Correct: 2/2 true ingredients found
+    Total predicted: 2
+    Recall: 100.0%
+
+================================================================================
+CLASS: Bacon_and_eggs
+IMAGE: Bacon_and_eggs_0001.jpg
+--------------------------------------------------------------------------------
+GROUND TRUTH INGREDIENTS (4):
+  sausage, egg, bacon, oil
+
+TOP 5 PREDICTIONS (>0.95 threshold):
+  ✓ sausage                        prob=0.9982
+  ✓ bacon                          prob=0.9918
+  ✓ oil                            prob=0.9748
+  ✗ ham                            prob=0.9517
+  ✗ anago                          prob=0.9511
+
+ACCURACY COMPARISON:
+  Threshold 0.50 (Lenient):
+    Correct: 4/4 true ingredients found
+    Total predicted: 42
+    Recall: 100.0%
+
+  Threshold 0.95 (Strict):
+    Correct: 3/4 true ingredients found
+    Total predicted: 5
+    Recall: 75.0%
+
+================================================================================
+CLASS: Ham_sandwich
+IMAGE: Ham_sandwich_0001.jpg
+--------------------------------------------------------------------------------
+GROUND TRUTH INGREDIENTS (2):
+  bread, ham
+
+TOP 5 PREDICTIONS (>0.95 threshold):
+  ✓ bread                          prob=0.9993
+  ✗ back bacon                     prob=0.9973
+  ✗ condiment                      prob=0.9972
+  ✓ ham                            prob=0.9815
+  ✗ tomato                         prob=0.9805
+
+ACCURACY COMPARISON:
+  Threshold 0.50 (Lenient):
+    Correct: 2/2 true ingredients found
+    Total predicted: 9
+    Recall: 100.0%
+
+  Threshold 0.95 (Strict):
+    Correct: 2/2 true ingredients found
+    Total predicted: 6
+    Recall: 100.0%
+
+================================================================================
+CLASS: Garlic_bread
+IMAGE: Garlic_bread_0001.jpg
+--------------------------------------------------------------------------------
+GROUND TRUTH INGREDIENTS (4):
+  bread, olive oil, garlic, butter
+
+TOP 5 PREDICTIONS (>0.95 threshold):
+  ✓ olive oil                      prob=0.9997
+  ✓ bread                          prob=0.9978
+  ✓ butter                         prob=0.9959
+  ✓ garlic                         prob=0.9945
+
+ACCURACY COMPARISON:
+  Threshold 0.50 (Lenient):
+    Correct: 4/4 true ingredients found
+    Total predicted: 9
+    Recall: 100.0%
+
+  Threshold 0.95 (Strict):
+    Correct: 4/4 true ingredients found
+    Total predicted: 4
+    Recall: 100.0%
+
+================================================================================
+CLASS: Goulash
+IMAGE: Goulash_0001.jpg
+--------------------------------------------------------------------------------
+GROUND TRUTH INGREDIENTS (7):
+  spices, stock, meat, potatoes, noodles, vegetables, paprika
+
+TOP 5 PREDICTIONS (>0.95 threshold):
+
+ACCURACY COMPARISON:
+  Threshold 0.50 (Lenient):
+    Correct: 7/7 true ingredients found
+    Total predicted: 33
+    Recall: 100.0%
+
+  Threshold 0.95 (Strict):
+    Correct: 0/7 true ingredients found
+    Total predicted: 0
+    Recall: 0.0%
+
+================================================================================
+CLASS: Hot_and_sour_soup
+IMAGE: Hot_and_sour_soup_0001.jpg
+--------------------------------------------------------------------------------
+GROUND TRUTH INGREDIENTS (6):
+  vinegar, egg, meat, sesame oil, garlic chili sauce, soy sauce
+
+TOP 5 PREDICTIONS (>0.95 threshold):
+  ✓ garlic chili sauce             prob=1.0000
+  ✓ vinegar                        prob=1.0000
+  ✓ sesame oil                     prob=1.0000
+  ✓ soy sauce                      prob=0.9996
+  ✓ meat                           prob=0.9983
+
+ACCURACY COMPARISON:
+  Threshold 0.50 (Lenient):
+    Correct: 6/6 true ingredients found
+    Total predicted: 16
+    Recall: 100.0%
+
+  Threshold 0.95 (Strict):
+    Correct: 6/6 true ingredients found
+    Total predicted: 6
+    Recall: 100.0%
+
+================================================================================
+CLASS: Jambalaya
+IMAGE: Jambalaya_0001.jpg
+--------------------------------------------------------------------------------
+GROUND TRUTH INGREDIENTS (4):
+  stock, meat, rice seasoning, vegetables
+
+TOP 5 PREDICTIONS (>0.95 threshold):
+  ✓ rice seasoning                 prob=0.9989
+  ✓ stock                          prob=0.9950
+  ✓ vegetables                     prob=0.9821
+  ✓ meat                           prob=0.9532
+
+ACCURACY COMPARISON:
+  Threshold 0.50 (Lenient):
+    Correct: 4/4 true ingredients found
+    Total predicted: 10
+    Recall: 100.0%
+
+  Threshold 0.95 (Strict):
+    Correct: 4/4 true ingredients found
+    Total predicted: 4
+    Recall: 100.0%
