@@ -334,16 +334,6 @@ python src/train_all.py \
 - Rare ingredients have lower prediction accuracy
 - Requires CUDA-capable GPU for reasonable speed
 
-### Future Improvements
-
-- Add more food classes and ingredients
-- Fine-tune ResNet50 on food-specific dataset
-- Implement attention mechanisms for ingredient localization
-- Add data augmentation for better generalization
-- Create web API for easy access
-
----
-
 ## Dependencies
 
 ```
@@ -362,50 +352,3 @@ Pillow
 This project is part of ATAI Multi-label Food Recognition course.
 
 ---
-
-## Contact
-
-**Author:** Ladhari Adem  
-**Repository:** https://github.com/ademladhari/Multi-label-Food-Recognition-ATAI-project  
-**Email:** ladhari.adem@example.com
-
----
-
-## Troubleshooting
-
-### CUDA Error: "no kernel image is available"
-
-**Solution:** Update PyTorch to nightly build with CUDA 13.0 support
-
-```bash
-pip install torch==2.11.0.dev20251215+cu130 torchvision --index-url https://download.pytorch.org/whl/nightly/cu130
-```
-
-### Feature extraction takes too long
-
-**Solution:** Ensure GPU is being used
-
-```bash
-python src/extract_features.py --device cuda
-```
-
-### Low accuracy on unknown dishes
-
-**Expected:** Model works best on dishes similar to training set. For completely new dishes, use lower threshold (0.80) to see all predictions.
-
-### Git push permission denied
-
-**Solution:** Create your own repository and push there, or ask collaborators to add you.
-
----
-
-## Changelog
-
-### v1.0 (December 2025)
-
-- ✅ Multi-label ingredient recognition on all 200+ food classes
-- ✅ ResNet50 feature extraction
-- ✅ Training pipeline with imbalance weighting
-- ✅ Inference with configurable threshold
-- ✅ Batch testing utilities
-- ✅ Achieved 100% recall on well-represented dishes
